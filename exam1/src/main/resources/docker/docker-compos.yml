@@ -1,0 +1,22 @@
+film:
+  title: 'springboot'
+  description: 'something is good'
+  languageId: 3
+
+mysql:
+    hostname: mysql
+    image: mysql:5.6
+    ports:
+      - "3306:3306":
+    volumes:
+      - ./mysql/conf:/etc/mysql/conf.d
+      - ./mysql/data:/varlib/mysql
+    bulid: ./mysql/
+    # command: --character-set-server=utf8
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: root
+      MYSQL_PASSWORD: 12345
+
+java:
