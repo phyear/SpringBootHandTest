@@ -1,7 +1,13 @@
 # SpringBootHandTest
 
-# 运行环境代码在src\test\java\com\hand\javatest3\exam1\Exam1ApplicationTests.java
+# 直接下载到本地在根目录下找到build.sh
 
-# Docker文件位于src\main\resources\docker下面 ：docker还不是很熟，没法运行
+# 直接运行[build.sh](https://github.com/phyear/SpringBootHandTest/blob/master/exam1/build.sh)
 
-# AOP莫名出错没有效果
+# 再运行[start.sh](https://github.com/phyear/SpringBootHandTest/blob/master/exam1/start.sh)
+
+# 再访问localhost:8080/getDate
+
+
+
+
