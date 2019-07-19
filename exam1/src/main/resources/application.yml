@@ -1,7 +1,7 @@
 spring:
    datasource:
-        driver-class-name: 'com.mysql.cj.jdbc.Driver'
-        url: 'jdbc:mysql://localhost:3306/sakila?useUnicode=true&characterEncoding=UTF8&serverTimezone=UTC&useSSL=false'
+        driver-class-name: 'com.mysql.jdbc.Driver'
+        url: 'jdbc:mysql://127.0.0.1:3306/sakila?serverTimezone=UTC&&useSSL=true'
         username: 'root'
         password: '12345'
 

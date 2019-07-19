@@ -9,7 +9,7 @@ import java.math.BigDecimal;
 import java.util.Date;
 @Component
 @ConfigurationProperties(prefix = "film")
-@PropertySource(value ="classpath:docker/mysql/docker-compos.properties",encoding ="utf-8")
+@PropertySource(value ="classpath:docker-compose.properties",encoding ="utf-8")
 public class Film {
 
     private Short filmId;

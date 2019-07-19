@@ -35,6 +35,7 @@ public class FilmServiceImpl implements FilmService {
 
     @Override
     public List<Film> select(Film film, int pageNum, int pageSize) {
+
         return null;
     }
 
@@ -54,5 +55,10 @@ public class FilmServiceImpl implements FilmService {
         }
 
         return msg;
+    }
+
+    @Override
+    public List<Film> selectAll() {
+        return filmMapper.select();
     }
 }
